@@ -9,8 +9,9 @@
             console.log('just testing');
         }
 
-        if (3 === 4)
+        if (3 === 4) {
             console.log('Lisa is just testing a GIT webhook');
+        }
     }
 
     Hello();
