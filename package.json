@@ -1,0 +1,14 @@
+{
+  "name": "simple-php-website",
+  "version": "1.0.0",
+  "description": "A very simple PHP website",
+  "main": "index.php",
+  "author": "Dev Woki",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

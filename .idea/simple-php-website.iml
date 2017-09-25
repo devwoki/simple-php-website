@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/container-interop/container-interop" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/psr/container" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-component-installer" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-config" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-db" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-escaper" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-eventmanager" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-http" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-loader" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-modulemanager" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-mvc" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-router" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-servicemanager" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-stdlib" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-uri" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-validator" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-view" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zfcampus/zf-development-mode" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/container-interop/container-interop" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/psr/container" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-component-installer" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-config" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-db" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-escaper" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-eventmanager" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-http" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-loader" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-modulemanager" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-mvc" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-router" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-servicemanager" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-stdlib" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-uri" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-validator" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zendframework/zend-view" />
+          <root url="file://$MODULE_DIR$/../ZendMVC-LW/vendor/zfcampus/zf-development-mode" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="grunt-DefinitelyTyped" level="application" />
+  </component>
+</module>
