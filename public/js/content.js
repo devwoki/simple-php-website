@@ -3,7 +3,7 @@
 
     function Hello() {
         alert("Hello, World");
-        alert("Hello, World 2");
+        alert("Hello, World 2.1");
 
         if (1 === 2) {
             console.log('just testing');
