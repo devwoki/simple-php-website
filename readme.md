@@ -1,4 +1,8 @@
-# Simple PHP Website
+# DevWoki's Simple PHP Website
+
+This was initially cloned from Simple PHP website but modified by me to test building with Grunt and Jenkins.
+
+Below this is taken from Simple PHP website:
 
 I put together this project while introducing a friend of mine to PHP. I decided to clean it up a bit and put it on Github so anyone new to PHP can have a taste of a very simple and minimal website built with PHP.
 
