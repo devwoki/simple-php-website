@@ -8,6 +8,9 @@
         if (1 === 2) {
             console.log('just testing');
         }
+
+        if (3 === 4)
+            console.log('just testing a GIT webhook');
     }
 
     Hello();
