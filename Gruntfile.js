@@ -110,6 +110,7 @@
         });
 
         // Load the plugin
+        grunt.loadNpmTasks('grunt-npm-install');
         grunt.loadNpmTasks('grunt-contrib-cssmin');
         grunt.loadNpmTasks('grunt-contrib-uglify');
         grunt.loadNpmTasks('grunt-contrib-watch');
@@ -119,12 +120,13 @@
         // grunt.loadNpmTasks('grunt-html');
         grunt.loadNpmTasks('grunt-htmllint');
 
+        // grunt.registerTask('default', ['npm-install']);
         grunt.registerTask('pre-commit', ['lesslint', 'jshint']);
 
         // Do the task
         // grunt.registerTask('default', ['cssmin', 'uglify']);
         // grunt.registerTask('default', ['jshint']);
-        grunt.registerTask('default', ['default-development']);
+        grunt.registerTask('default', ['npm-install', 'default-development']);
         grunt.registerTask('default-development', ['pre-commit', 'less']);
         grunt.registerTask('default-prod', ['pre-commit', 'less', 'cssmin']);
     };

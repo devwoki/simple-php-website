@@ -12,6 +12,7 @@
     "grunt-contrib-uglify": "^3.1.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-htmllint": "^0.2.7",
-    "grunt-lesslint": "^4.0.0"
+    "grunt-lesslint": "^4.0.0",
+    "grunt-npm-install": "^0.3.1"
   }
 }
