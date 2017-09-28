@@ -9,7 +9,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'DevWoki\'s Simple PHP Website',
         'nav_menu' => [
             '' => 'Home',
             'about-us' => 'About Us',

@@ -3,32 +3,39 @@
 <head>
     <meta charset="utf-8"/>
     <title><?php pageTitle(); ?> | <?php siteName(); ?></title>
-    <style type="text/css">
-        .wrap {
-            max-width: 720px;
-            margin: 50px auto;
-            padding: 30px 40px;
-            text-align: center;
-            box-shadow: 0 4px 25px -4px #9da5ab;
-        }
 
-        article {
-            text-align: left;
-            padding: 40px;
-            line-height: 150%;
-        }
-    </style>
-    <script>
-        var siteName = '<?php pageTitle(); ?>';
-        console.log('Hello dev-woki: ' + siteName);
+    <?php if (inDevelopmentMode()) { ?>
+        <link rel="stylesheet" type="text/css" href="../css/content.css">
+        <link rel="stylesheet" type="text/css" href="../css/circle.css">
+    <?php } else { ?>
+        <link rel="stylesheet" type="text/css" href="../css/main.min.css">
+    <?php } ?>
+    <!--    <style type="text/css">-->
+    <!--        .wrap {-->
+    <!--            max-width: 720px;-->
+    <!--            margin: 50px auto;-->
+    <!--            padding: 30px 40px;-->
+    <!--            text-align: center;-->
+    <!--            box-shadow: 0 4px 25px -4px #9da5ab;-->
+    <!--        }-->
+    <!---->
+    <!--        article {-->
+    <!--            text-align: left;-->
+    <!--            padding: 40px;-->
+    <!--            line-height: 150%;-->
+    <!--        }-->
+    <!--    </style>-->
+    <!--    <script>-->
+    <!--        var siteName = '--><?php //pageTitle(); ?><!--';-->
+    <!--        console.log('Hello dev-woki: ' + siteName);-->
 
-        var unused = 1;
+    <!--        var unused = 1;-->
 
-        if (1 == 2)
-            console.log('testing');
+    <!--        if (1 == 2)-->
+    <!--            console.log('testing');-->
 
 
-    </script>
+    <!--    </script>-->
 </head>
 <body>
 <div class="wrap">
@@ -44,6 +51,9 @@
         <h3><?php pageTitle(); ?></h3>
         <?php pageContent(); ?>
     </article>
+
+    <div id="small-circle"></div>
+    <div id="big-circle"></div>
 
     <footer>
         <small>&copy;<?php echo date('Y'); ?> <?php siteName(); ?>.<br><?php siteVersion(); ?></small>
