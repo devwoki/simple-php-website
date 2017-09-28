@@ -1,0 +1,21 @@
+@background-color: #4CAF50;
+@var: #004590;
+
+#circle(@size: 25px) {
+  background-color: @background-color;
+  border-radius: 100%;
+  height: @size;
+  width: @size;
+}
+
+#small-circle {
+  #circle
+}
+
+#big-circle {
+  #circle(100px);
+
+  &:hover {
+    background-color: fadeout(@var, 50%);
+  }
+}
